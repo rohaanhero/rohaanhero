@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rana Muhammad Rohaan</title>
+    <style>
+        header {
+            background-color: #f6695c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 3em;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            animation: colorChange 5s infinite alternate, headerPulse 3s infinite;
+        }
+
+        .info-box {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fdf064;
+            color: #000;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5), 0 0 15px rgba(255, 255, 255, 0.4);
+            border-radius: 15px;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', sans-serif;
+            background: linear-gradient(to bottom right, #ffecd2, #fcb69f);
+            color: #444444;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            animation: backgroundAnimation 15s infinite alternate;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+
+        .gallery-item {
+            margin: 20px;
+            text-align: center;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 255, 255, 0.7);
+            border: 5px solid #00ffcc;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7), 0 0 30px rgba(0, 255, 255, 1);
+        }
+
+        .gallery-caption {
+            margin-top: 10px;
+            font-size: 30px;
+            color: #000;
+            font-weight: bold;
+            text-shadow: 0 2px 5px rgba(255, 255, 255, 0.5);
+        }
+
+        .buttons {
+                display: flex;
+                justify-content: center;
+                margin: 20px 0;
+            }
+
+            .button {
+                padding: 15px 30px;
+                margin: 10px;
+                font-size: 1.5em;
+                color: white;
+                background-color: #ff6f61;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                animation: buttonBounce 3s infinite;
+                transition: background-color 0.3s, transform 0.3s;
+                text-decoration: none;
+                display: inline-block;
+            }
+
+            .button:hover {
+                background-color: #fcb69f;
+                transform: scale(1.1);
+            }
+
+    </style>
+</head>
+<body>
+    <header>Rohaan's Fun World!</header>
+    <div class="info-box">
+        Hi! My name is Rohan. I am 6 years old and I love to play games, study hard, and help everyone! Welcome to my colorful world where fun never ends!
+    </div>
+    <div class="info-box">
+        <h1>MY HOBBIES</h1>
+        <p>I love to play games, draw, and explore new things! My favorite games are both virtual and physical games.</p>
+        <div class="buttons">
+            <a href="virtualgames.html" class="button">Virtual Games</a>
+            <a href="physicalgames.html" class="button">Physical Games</a>
+        </div>
+    </div>
+    <div class="info-box">
+        <h1>My Favourite Things</h1>
+        <div style="text-align:left;">
+            <ul>
+                <li>Favorite Color: Blue and Red</li>
+                <li>Favorite Food: Pizza and Ice Cream</li>
+                <li>Favorite Subject: Mathematics</li>
+                <li>Favorite Animal: Lion</li>
+                <li>Favorite Cartoon: Transformers Prime</li>
+            </ul>
+        </div>
+    </div>
+    <div class="info-box">
+        <h1>My Friends ☻</h1>
+        <p>I love spending time with my friends and cousins. We play together, study together, and have lots of fun!</p>
+        <div class="buttons">
+            <a class="button">Meet My Friends</a>
+        </div>
+    </div>
+
+    <div class="info-box">
+        <h2>Rohaan's Gallery</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="F:/LARAIB (coding)/Rohan's Website/gaming.jpeg" alt="Gaming">
+                <div class="gallery-caption">Gaming</div>
+            </div>
+            <div class="gallery-item">
+                <img src="F:/LARAIB (coding)/Rohan's Website/relax.jpeg" alt="Relaxing">
+                <div class="gallery-caption">Relaxing</div>
+            </div>
+            <div class="gallery-item">
+                <img src="F:/LARAIB (coding)/Rohan's Website/work.jpeg" alt="Working on a Laptop">
+                <div class="gallery-caption">Working on a Laptop</div>
+            </div>
+            <div class="gallery-item">
+                <img src="F:/LARAIB (coding)/Rohan's Website/study.jpeg" alt="Studying with full Focus">
+                <div class="gallery-caption">Studying with Focus</div>
+            </div>
+            <div class="gallery-item">
+                <img src="F:/LARAIB (coding)/Rohan's Website/playing.jpeg" alt="Playing with ball">
+                <div class="gallery-caption">Playing with a Ball</div>
+            </div>
+            <div class="gallery-item">
+                <img src="F:/LARAIB (coding)/Rohan's Website/help.jpeg" alt="Helping Siblings">
+                <div class="gallery-caption">Helping Siblings</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

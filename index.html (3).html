@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Physical Games</title>
+    <style>
+        header {
+            background-color: #3fb690;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 3em;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            animation: colorChange 5s infinite alternate, headerPulse 3s infinite;
+        }
+
+        .info-box {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background: #a0ffc6;
+            color: #000;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5), 0 0 15px rgba(255, 255, 255, 0.4);
+            border-radius: 15px;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', sans-serif;
+            background: linear-gradient(to bottom right, #75dbb6, #75dbb6);
+            color: #444444;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            animation: backgroundAnimation 15s infinite alternate;
+        }
+
+        .games-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px 0;
+        }
+
+        .game {
+            text-align: center;
+            width: 300px; 
+        }
+
+        .game img {
+            width: 300px;
+            height: auto;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .game img:hover {
+            transform: scale(1.1);
+        }
+
+        .game p {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #444;
+        }
+
+        .button-container {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .button {
+            background-color: #5febc3;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 42px;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .button:hover {
+            background-color: #befad0;
+            transform: scale(1.05);
+        }
+
+    </style>
+</head>
+<body>
+    <header>Physical Games</header>
+    <div class="info-box">
+        Here are the games that I play physically whenever I get time with my friends...
+    </div>
+    <div style="text-align:center;font-size: 30px;">
+        <h1>Look Below ↓</h1>
+    </div>
+    <div class="info-box">
+        <div class="games-container">
+            <div class="game">
+                <img src="F:\LARAIB (coding)\Rohan's Website/bat.png" alt="Cricket">
+                <p>Cricket</p>
+            </div>
+            <div class="game">
+                <img src="F:\LARAIB (coding)\Rohan's Website/football.png" alt="Football">
+                <p>Football</p>
+            </div>
+            <div class="game">
+                <img src="F:\LARAIB (coding)\Rohan's Website/badminton.png" alt="Badminton">
+                <p>Badminton</p>
+            </div>
+            <div class="game">
+                <img src="F:\LARAIB (coding)\Rohan's Website/racket.png" alt="Tennis">
+                <p>Tennis</p>
+            </div>
+            <div class="game">
+                <img src="F:\LARAIB (coding)\Rohan's Website/tabletennis.png" alt="Table Tennis">
+                <p>Table Tennis</p>
+        </div>
+    </div>
+    <div class="button-container"><a href="Rohan's Website.html" class="button">Back</a>
+    </div>
+</body>
+</html>
